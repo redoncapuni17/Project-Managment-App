@@ -34,7 +34,7 @@ export default function NewProject({ onAdd, onCancel }) {
     <>
       <Modal ref={modal} buttonCaption="Okay">
         <h2 className="text-xl font-bold text-stone-700 my-4">Invalid</h2>
-        <p className="text-stone-600 ">Oops.. You forgot to enter a value</p>
+        <p className="text-stone-600 ">Oops... You forgot to enter a value</p>
         <p className="text-stone-600 mb-4">
           Please make sure you provide a valid value for every input field
         </p>
